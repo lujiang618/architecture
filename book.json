@@ -1,3 +1,5 @@
 {
-    "plugins": ["summary"]
+    "plugins": [
+        "splitter"
+    ]
 }
