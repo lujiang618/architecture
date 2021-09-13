@@ -1,6 +1,6 @@
 {
-    "title": "G笔记",
-    "description": "好记性不如G笔记",
+    "title": "22222",
+    "description": "11111",
     "author": "****",
     "output.name": "site",
     "language": "zh-hans",
@@ -14,12 +14,11 @@
     "plugins": [
         "splitter",
         "code",
+        "github",
         "back-to-top-button",
         "search-pro",
-        "github",
         "tbfed-pagefooter",
         "sharing-plus",
-        "custom-favicon",
         "prism",
         "emphasize",
         "sectionx",
@@ -36,11 +35,15 @@
         "image-captions",
         "styles-less",
         "toggle-chapters",
-        "multipart"
+        "multipart",
+        "hide-element"
     ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/lujiang618/architecture"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
         }
     }
 }
